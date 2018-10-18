@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>登录界面</title>
+    <style>
+        form{
+             width: 600px;
+             height:200;
+             border: 2px rgb(90, 22, 28) solid;
+             border-radius: 20px;
+             background: rgb(132, 172, 24);
+             margin: 50px auto;
+        }
+        p{
+            font-size: 15px ; 
+            font-family:"宋体";
+            text-align: center;
+        }
+      .num,.pass{
+            width: 350px;
+            height: 50px;
+            border: 1px rgb(180, 38, 180) solid;
+            border-radius: 20px;
+            padding:2px 2px 2px 22px; 
+    
+      }
+      .num{
+          background: url(images/1.jpg) no-repeat 5px  #fff;
+      }
+      .pass{
+          background: url(images/2.jpg) no-repeat 5px #fff;
+      }
+      .btn01,.btn02{
+          width: 50px;
+          height: 30px;
+          border: 1px rgb(18, 146, 56) solid;
+          border-radius: 20px;
+          background: rgb(47, 150, 56);
+      }
+        </style>
+</head>
+<body>
+    <form action="#" method="GET">
+        <p>
+           <span>账号：</span>
+           <input type="text" name="wlz" value="WLZ" class="num" >
+        </p>
+        <p>
+            <span>密码：</span>
+            <input type="passwold" name="par" class="pass" >
+        </p>
+         <p>
+             <input type="button" class="btn01" value="注册">
+             <input type="button" class="btn02" value="登录">
+         </p>
+    </form>
+</body>
+</html>
